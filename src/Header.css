@@ -1,0 +1,185 @@
+
+body {
+    margin: auto;
+
+
+}
+
+.dropdown{
+    height:45px;
+    width:40%;
+    margin-top:2%;
+    margin-left:29%;
+    
+}
+    
+  select{
+    height:45px;
+    width:49%;
+    font-size:20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   font-weight: 630;
+    
+    }
+
+#geo{
+    height: 47px;
+    width: 18%;
+    padding-left: 10px;
+    margin-left: 2%;
+    /* border: 2px solid black; */
+  
+}
+
+#coupon {
+    height: 400px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: black;
+    visibility:hidden;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+
+#coupon>img {
+
+    height: 400px;
+    width: 100%;
+
+}
+
+
+
+.bi {
+    font-size: 42px;
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    margin-left: 10%;
+    transform: translate(-50%, -50%);
+    color: #f39c12;
+}
+
+.bi-moon {
+    color: white;
+
+}
+
+
+
+
+
+
+/*navbar css*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid #d3d3d3;
+
+}
+
+.navinfo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.navsearch {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: auto 15px;
+    height: 28px;
+    width: 60%;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.navitems {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    /* width: 40%; */
+    margin-top: 1%;
+    margin-right: 3%;
+}
+
+.navitem1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2%;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #373737 !important;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.far {
+    margin-right: 5px;
+    color: #25a541;
+
+
+}
+
+.fas {
+    color: rgb(88, 144, 55);
+    font-size: 30px
+}
+
+.form-control{
+    /* margin-left:20%; */
+
+    box-shadow: 1px 1px 3px gray;
+    /* margin-left: 10%; */
+
+}
+
+
+#bd {
+
+    height: 36px;
+    width: 100%;
+    /* border:2px solid ; */
+
+}
+
+
+.category {
+    display: flex;
+    list-style: none;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 18px
+}
+
+li {
+    cursor: pointer;
+
+}
+
+.category li>a {
+    text-decoration: none;
+    color: #4d9273
+}
+
+.category li {
+    margin-left: 3%
+}
+
+.fa-user{
+    color: #25a541
+    
+}

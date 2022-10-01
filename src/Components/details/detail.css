@@ -1,0 +1,103 @@
+
+
+#mainContent{
+    height: 550px;
+    width:90%;
+    margin-left:5%;
+    margin-top:2%;
+    display: inline-block;
+}
+.imgDiv{
+    height:420px;
+    width:35%;
+    float: left;
+    border:0.5px groove gray;
+    /* box-shadow: 0px 0px 5px 4px  #d3d3d3; */
+    
+    
+    
+}
+.imgDiv > img {
+    height:400px;
+    width:100%; 
+ 
+}
+.contentDiv{
+    width:55%;
+    margin-left:2%;
+    float: left;
+    margin-top: -1%;
+}
+.feature_container{
+    width:100%;
+    display: inline-block;
+}
+figure{
+    float: left;
+    margin-left:5%;
+}
+
+.featureIcon{
+    height:100px;
+    width:100px;
+}
+.imgIcon{
+    height:100px;
+    width:100px;
+    margin-left:2%
+}
+h2{
+    font-size: 35px;
+    color:green;
+}
+.fa-amazon{
+    font-size:25px;
+    color:orange
+}
+.checked{
+    color:red
+}
+.btn1{
+    color:white;
+    margin-left:1%
+}
+
+/* .btn-proceed{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    background-color:rgb(144, 145, 235)
+}
+
+.btn-back{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    background-color:rgb(237, 120, 120)
+} */
+
+.btn-light{
+    margin-left: 2%;
+    color: #fff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+   
+ 
+    
+}   
+
+.btn-danger {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+
+}
+
+
+.btn-success{
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+    color: #fff !important;
+   
+}
+

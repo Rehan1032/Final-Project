@@ -1,0 +1,127 @@
+#mainListing{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+#filter{
+    height:600px;
+    width:18%;
+    float: left;
+    border: 0.5px solid #4d9273;
+    margin-left: 8%;
+    margin-top: 2%;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 25%);
+}
+
+h1{
+    margin-top: 2%;
+}
+
+.imgdiv{
+    
+    height:405px;
+    border:0.5px solid #4d9273;
+    width:300px;
+    margin-left:2%;
+    border-radius: 4px;
+    float: left;
+    margin-top: 2%;
+
+}
+
+
+
+.imgdiv>img{
+    height: 136px;
+    width: 136px;
+   margin-left: 85px;
+   margin-top:3%;
+  
+}
+
+.heading{
+    width:96%;
+    padding-left:10px;
+    margin-top:4%;
+    color: #e27c15;
+    font-family: times, "Times New Roman", ;
+    font-weight: 650;
+    font-size: 20px;
+   
+} 
+
+#hdng{
+    display:block;
+   line-height:2;
+   padding-top:5px;
+   margin-left: 12%;
+   color: black;
+}
+
+
+#subhdng{
+    display:block;
+    color: black;
+   margin-left: 12%;
+}
+
+.cnt{
+    
+    margin-top:5%;
+    margin-left: 12%;
+
+    
+    
+}
+
+.cnt1{
+    line-height:2;
+    margin-left: 12%;
+
+}
+
+.dropdown{
+     height:33px;
+    width:99%;
+    /* border:1px solid black; */
+    margin-top:5%
+    
+}
+
+select{
+    font-size:14;
+    margin-left: -24%;
+    height:33px;
+    width:88%;
+   
+}
+
+.myButton{
+    height:35px;
+    width:88%;
+    margin-left: 6%;
+    font-size:14px ;
+    background-color: #67a525;
+    color: white;
+    margin-top:3%;
+    font-weight: bold;
+    border:none;
+    box-shadow: 5px 7px 6px gray;
+    
+}
+
+.img>img{
+
+    margin-top: 5%;
+    padding-left: 8%;
+}
+
+
+h1{
+    margin-top: 2%;
+    margin-left:30%;
+    color:green
+}
+
+
+
