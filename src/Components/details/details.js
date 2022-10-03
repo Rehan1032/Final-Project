@@ -43,7 +43,7 @@ class Details extends  Component{
                     </div>
                     <div className="contentDiv">
                         <h2>{details.product}</h2>
-                        <span>231 Customers Say {details.rating_text} </span>
+                        <span>231 Customers Say Good </span>
                         <h3><del> MRP : ₹ 1000</del></h3>
                         <h3>Dmart : {details.price}</h3>
                         

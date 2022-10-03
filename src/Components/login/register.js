@@ -54,7 +54,7 @@ class Register extends Component{
           
 
           <div class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control form-control-lg"
+            <input type="name" id="form3Example3" class="form-control form-control-lg"
               placeholder="Enter Name" name="name"
             value={this.state.name}
               onChange={this.handleChange}/>
@@ -76,7 +76,7 @@ class Register extends Component{
             <label class="form-label" for="form3Example4">Password</label>
           </div>
           <div class="form-outline mb-3">
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
+            <input type="phone" id="form3Example4" class="form-control form-control-lg"
               placeholder="Enter Number" name="phone"  value={this.state.phone}
               onChange={this.handleChange}  />
             <label class="form-label" for="form3Example4">Phone</label>

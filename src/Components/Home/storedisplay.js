@@ -23,7 +23,9 @@ const StoreDisplay = (props) => {
     return(
         <>
             {myMeal(props)}
+            
         </>
+        
     )
 }
 

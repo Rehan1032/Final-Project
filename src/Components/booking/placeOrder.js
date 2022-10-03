@@ -87,8 +87,6 @@ class PlaceOrder extends Component{
             
             <>
                <Header/>
-              
-                          
                        <form action="https://paytwonow.herokuapp.com/paynow" method="POST">
           <div className="container text-center mt-5">
             <div className="row g-5">
@@ -117,14 +115,14 @@ class PlaceOrder extends Component{
                 <button
                   className="w-100 btn  btn-lg mt-4"
                   style={{
-                    backgroundColor: "#fd7e14",
+                    backgroundColor: "#5cb85c",
                     color: "white",
                     marginBottom: "20%",
                   }}
                   type="submit"
                   onClick={this.checkout}
                 >
-                  Continue to checkout
+                  PlaceOrder
                 </button>
               </div>
 

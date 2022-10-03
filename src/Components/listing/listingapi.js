@@ -4,6 +4,7 @@ import Header from '../../Header'
 import ListingDisplay from './listingDisplay'
 import axios from 'axios';
 import CategoryFilter from '../filter/categoryFilter';
+import FilterDisplay from '../filter/filterdisplay';
 
 const url = "https://node-api321.herokuapp.com/Subcategory?subcategoryId="
 
@@ -37,6 +38,11 @@ class Listing extends Component{
                         </center>
                         <CategoryFilter categoryId={this.props.match.params.categoryId}
                         restPerCategory={(data) => {this.setDataPerFilter(data)}}/>
+                        
+                        <hr/>
+                        
+                           <FilterDisplay mealId={this.props.match.params.mealId}
+                           restPerCost={(data) => {this.setDataPerFilter(data)}}/>
                     </div>
                     <ListingDisplay listData={this.state.productList}/>
                 </div>
